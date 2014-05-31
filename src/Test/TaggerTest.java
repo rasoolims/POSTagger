@@ -15,9 +15,11 @@ import java.util.Vector;
 
 public class TaggerTest {
     public static void main(String[] args) throws IOException {
+        // Just for IDE test
         String modelFile="/Users/msr/Projects/PersianPOSTagger/src/Test/persian.model";
         String inputFile="/Users/msr/Projects/PersianPOSTagger/src/Test/persiantest.tmp";
         String outputFile="/Users/msr/Projects/PersianPOSTagger/src/Test/output.tmp";
+
 
         if(args.length>2){
             modelFile=args[0];
